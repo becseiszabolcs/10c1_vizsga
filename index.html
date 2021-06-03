@@ -95,7 +95,7 @@
                                 <label for="orszag">Választott célország:</label>
                             </div>
                             <div class="col-12 col-md-8">
-                                <select class="form-control" id="orszag">
+                                <select onclick="szamol()" class="form-control" id="orszag">
                                     <option value="b">Bulgária</option>
                                     <option value="g">Görögország</option>
                                     <option value="h" selected>Horvátország</option>
@@ -108,7 +108,7 @@
                                 <label for="letszam">Létszám (fő): </label>
                             </div>
                             <div class="col-12 col-md-8">
-                                <input class="form-control" type="number" id="letszam" min="0">
+                                <input onclick="szamol()" class="form-control" type="number" id="letszam" min="0">
                             </div>
                         </div>
                         <div class="row mb-2">
@@ -116,7 +116,7 @@
                                 <label for="ejszaka">Éjszakák száma: </label>
                             </div>
                             <div class="col-12 col-md-8">
-                                <input class="form-control" type="number" id="ejszaka" min="0">
+                                <input onclick="szamol()" class="form-control" type="number" id="ejszaka" min="0">
                             </div>
                         </div>
 
@@ -126,7 +126,7 @@
                                 <label for="eredmeny">Fizetendő:</label>
                             </div>
                             <div class="col-12 col-md-4">
-                                <input type="text" class="form-control" id="eredmeny" disabled>
+                                <input onclick="szamol()" type="text" class="form-control" id="eredmeny" disabled>
                             </div>
                         </div>
                     </form>
